@@ -1,0 +1,21 @@
+.flight-card-container{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+    border-top:1px solid #ccc;
+    margin-top:20px;
+    padding-top:10px;
+}
+
+.flight-card{
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin:10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+}
